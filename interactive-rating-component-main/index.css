@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Overpass;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 15px;
+}
+
+body {
+  min-height: 420px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(216, 12%, 8%);
+}
+
+#rate_screen {
+  width: 100%;
+  max-width: 500px;
+  height: 512px;
+  color: white;
+  background-color: hsl(213, 36%, 13%);
+  padding: 2rem;
+  border-radius: 2rem;
+  padding-right: 2.93rem;
+}
+
+#images,
+.design {
+  background-color: hsl(214, 28%, 15%);
+  height: 4rem;
+  width: 4rem;
+  border-radius: 50%;
+  border: none;
+  color: hsl(216, 12%, 54%);
+}
+
+#images {
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-1 {
+  height: 20px;
+}
+
+#header,
+.text {
+  margin-bottom: 30px;
+}
+
+#header {
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.text {
+  display: flex;
+  text-align-last: left;
+  line-height: 30px;
+  font-size: 19px;
+  font-weight: 400;
+  color: hsl(216, 12%, 54%);
+}
+
+.inner {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.design {
+  text-align: center;
+  display: inline-block;
+}
+.design:hover {
+  background-color: hsl(217, 12%, 63%);
+  color: white;
+  cursor: pointer;
+}
+
+.js-submit {
+  display: block;
+  width: 100%;
+  border-radius: 25px;
+  height: 46px;
+  border: none;
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(25, 97%, 53%);
+  font-size: 18px;
+}
+
+.js-submit:hover {
+  background-color: White;
+  color: hsl(25, 97%, 53%);
+  cursor: pointer;
+}
+
+.design:focus {
+  background-color: hsl(25, 97%, 53%);
+  color: white;
+}
+
+.error {
+  color: red;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.hidden {
+  display: none;
+}

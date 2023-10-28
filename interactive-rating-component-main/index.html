@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="Thank-you.css" />
+    <title>Frontend Mentor | Interactive rating component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(0, 0%, 99%);
+      }
+    </style>
+  </head>
+  <body  >
+    <section id="rate_screen" >
+      <!-- Rating state start -->
+      <figure id="images"><img class="image-1" src="images/icon-star.svg" alt="" /></figure>
+      <h1 id="header">How did we do?</h1>
+
+      <p class="text">
+        Please let us know how we did with your support request. All feedback is
+        appreciated to help us improve our offering!
+      </p>
+      <div class="inner">
+        <button class="design js-design">1</button>
+        <button class="design js-design">2</button>
+        <button class="design js-design">3</button>
+        <button class="design js-design">4</button>
+        <button class="design js-design">5</button>
+      </div>
+
+      <div>
+        <input type="submit" class="js-submit"></>
+      </div>
+
+      <p class="error"></p>
+    </section>
+
+    <div class="contain hidden" id="resuit_screen">
+
+      <section  id="screen">
+
+        <figure class="image1">
+          <img class="images-2" src="images/illustration-thank-you.svg" alt="" />
+          <!-- Thank you state start -->        
+        </figure>
+        <p id="rating"> </p>
+        <h1 id="head">Thank you!</h1>
+        <p class="text-2">
+          We appreciate you taking the time to give a rating. If you ever need more
+          support, don’t hesitate to get in touch!
+        </p>
+    </section>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
