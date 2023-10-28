@@ -4,7 +4,7 @@ const resuitScreen = document.querySelector("#resuit_screen");
 let btn = document.getElementsByClassName("js-design");
 let valor = undefined;
 
-
+// const r = (document.querySelector("#rating").innerHTML = "hello world");
 
 function submit() {
   if (valor !== undefined) {
